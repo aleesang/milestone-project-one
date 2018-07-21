@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One:100,200,300,400,500,600,700|Abel:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*-----------------------------------------Main Heading Transformations */
+
+body {
+    font-family: 'Abel', sans-serif;
+    color: #ffffff;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+/*-----------------------------------------Containers */
+
+.container-wrapper--fionaappleabout {
+    background: url('../images/container-background/fionaappleabout.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    color: #f0f6f9;
+}
+
+.about-content-container {
+    padding: 35px;
+}
+
+.container-wrapper--fionaapplemusic {
+    background: url('../images/container-background/fionaapplemusic.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    color: #f0f6f9;
+}
+
+.music-content-container {
+    padding: 35px;
+}
+
+   /*----space between vertical stacking----*/
+   
+ @media (max-width: 800px) {
+     .grid-container > div {
+         margin-bottom: 30px;
+     }
+  }
+
+
+/*-----------------------------------------Header Image */
+
+
+.header-image {
+    background: url('../images/header/fionaappleheadercolour.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/*-----------------------------------------Navbar */
+
+
+.navbar-bg{
+    padding: 10px;
+    background-color: #ede3de;
+    border: 0;
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.navbar-brand:hover{
+    opacity: 0.6;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;     
+}
+
+.navbar-nav li a{
+    color: #63564f !important;
+}
+
+.navbar-nav li a:hover{
+    opacity: 0.6;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;     
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(41, 41, 41)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(41, 41, 41);
+} 
+
+.custom-toggler.navbar-toggler:hover {
+    opacity: 0.8;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+} 
+
+button:focus { 
+    outline:0 !important; 
+}
+
+
+
+/*-----------------------------------------About*/
+
+.about-heading{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: #dbc7bd;
+    margin: auto;
+}
+
+.bio{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+    /*---- Modal Styling ----*/
+    
+.modal-header,
+.modal-footer{
+    border: none;
+}
+
+.modal-title{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: #dbc7bd;  
+}
+
+.modal-body{
+    color: #ffffff;    
+}
+
+.modal-dialog{
+    max-width: 65%;  
+}
+
+.modal-content{
+    background-color: #292929; 
+    padding: 20px;   
+}
+
+.btn-dark,
+.btn-secondary{
+    background-color: rgb(0, 0, 0);
+    color: rgb(237, 227, 222);
+    border: none;
+    padding: 14px 20px;
+    margin: 0px;
+    text-transform: uppercase;    
+    font-family: 'Abel', sans-serif;
+    border-radius: 0px;    
+}
+
+.btn.btn-dark:hover{
+  color: rgb(237, 227, 222);
+  background-color: rgb(89, 89, 89);
+}
+
+.btn.btn-dark:active:focus{
+  color: rgb(237, 227, 222);
+  background-color: rgb(89, 89, 89);
+}
+
+
+/*-----------------------------------------Music*/
+
+
+.music-heading{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: #dbc7bd;
+    margin: auto;
+}
+
+.music-player{
+    padding-bottom:5%; 
+    padding-top:5%; 
+    position:relative; 
+    display:block; 
+    width: 100%;
+    margin: auto;
+}
+
+.album-img{
+    box-shadow: 10px 10px black;
+}
+
+
+.responsive-image {
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+    opacity: 1.0;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.listen-img img{
+    opacity: 1.0;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.listen-img img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+/*-----------------------------------------Video */
+
+.video-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  border: none;
+}
+
+/* 16x9 Aspect Ratio */
+.video-container-16x9 {
+  padding-bottom: 54%;
+}
+
+
+.video-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+iframe{
+    border-width: 0px;
+}
+
+
+/*-----------------------------------------Footer*/
+
+footer{
+    background-color: #63564f;
+    color: #cfb53b;
+    margin: 0;
+    position: absolute;    
+    padding: 35px;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+    /*---- Newsletter Sign Up ----*/
+
+.mail-content-container{
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: 'Fjalla One', sans-serif;
+    color: #dbc7bd;
+    margin: auto;
+}
+
+::placeholder {
+    color: #caafa2;
+    text-transform: uppercase;
+}
+
+input[type=text] {
+    margin: 0px;
+    height: 50px;
+    text-indent: 0.05em;
+    background-color: transparent;  
+    border-style: solid;  
+    border-width: 1px;  
+    border-color: #ede3de; 
+    border-radius:0px;
+    max-width: 40em;
+}
+
+input[type=submit] {
+    background-color: #000000; 
+    color: #ede3de;
+    padding: 14px 20px;
+    margin: 0px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;    
+    font-family: 'Abel', sans-serif;
+    border-radius:0px;
+}
+
+input[type=submit]:focus {
+    outline: 0;
+}
+
+input[type=submit]:hover {
+    opacity: 0.6;
+}
+
+    /*---- Privacy T&C's ----*/
+    
+.nav-link{
+    color: #dbc7bd;
+}
+
+.nav-link:hover{
+    color: #dbc7bd;
+    opacity: 0.6;
+}
+
+    /*---- Social Links ----*/
+    
+.social-links li a i{
+    width: 50px;
+    height: 50px;
+    padding: 19px 0;
+    border-radius: 60%;
+    font-size: 20px;
+    line-height: 11px;
+    text-align: center;
+    color: #fafafa;
+    background: #000000;
+     
+}
+
+.social-links li a i:hover{
+    opacity: 0.6;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;    
+}
+
+    /*---- Copyright ----*/
+    
+.copyright{
+    padding-top: 20px;
+    font-family: 'Abel', sans-serif;
+    color: #dbc7bd;
+}
+
