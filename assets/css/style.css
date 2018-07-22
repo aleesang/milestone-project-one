@@ -58,10 +58,22 @@ body {
     color: #f0f6f9;
 }
 
+.container-wrapper--fionaappletourdates {
+    background: url('../images/container-background/fionaappletourdates.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    color: #f0f6f9;
+}
+
 .about-content-container, 
 .music-content-container,
 .video-content-container,
-.photo-content-container {
+.photo-content-container,
+.tour-content-container {
     padding: 40px;
 }
 
@@ -92,12 +104,12 @@ body {
 
 .navbar-bg{
     padding: 10px;
-    background-color: #ede3de;
+    background-color: #63564f;
     border: 0;
     text-transform: uppercase;
-    font-family: 'Abel', sans-serif;
-    font-size: large;
-    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: larger;
 }
 
 .navbar-brand:hover{
@@ -109,7 +121,7 @@ body {
 }
 
 .navbar-nav li a{
-    color: #63564f !important;
+    color: #dbc7bd !important;
 }
 
 .navbar-nav li a:hover{
@@ -121,11 +133,11 @@ body {
 }
 
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(41, 41, 41)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(219, 199, 189, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .custom-toggler.navbar-toggler {
-  border-color: rgb(41, 41, 41);
+  border-color: rgba(219, 199, 189, 1);
 } 
 
 .custom-toggler.navbar-toggler:hover {
@@ -150,13 +162,13 @@ button:focus {
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
     color: #dbc7bd;
-    margin: auto;
+    
 }
 
 .bio{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.47);
     padding: 20px;
-    box-shadow: 10px 10px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
     /*---- Modal Styling ----*/
@@ -183,7 +195,7 @@ button:focus {
 }
 
 .modal-content{
-    background-color: #292929; 
+    background-color: #63564f; 
     padding: 20px;   
 }
 
@@ -232,7 +244,7 @@ button:focus {
 }
 
 .album-img{
-    box-shadow: 10px 10px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -260,11 +272,12 @@ button:focus {
 .video-container {
   height: 0;
   overflow: hidden;
-  border: none; 
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .video-container-ratio {
-  padding-bottom: 40%;
+  padding-bottom: 45%;
 }
 
 
@@ -278,9 +291,22 @@ iframe{
     border-width: 0px;
 }
 
+
 /*-----------------------------------------Photo Gallery*/
 
 .photo-heading{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: #dbc7bd;
+    margin: auto;
+}
+
+
+/*-----------------------------------------Tour Dates*/
+
+.tour-heading{
     text-transform: uppercase;
     letter-spacing: 0.1em;
     text-align: center;
@@ -293,7 +319,6 @@ iframe{
 
 footer{
     background-color: #63564f;
-    color: #cfb53b;
     margin: 0;
     position: absolute;    
     padding: 35px;
@@ -314,7 +339,7 @@ footer{
 }
 
 ::placeholder {
-    color: #caafa2;
+    color: #cfc7c8 !important;
     text-transform: uppercase;
 }
 
