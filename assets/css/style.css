@@ -87,6 +87,57 @@ body {
   }
 
 
+/*----------------------------------------- Modal Styling */
+    
+.modal-header,
+.modal-footer{
+    border: none;
+}
+
+.modal-title{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: #dbc7bd;  
+}
+
+.modal-body{
+    color: #fafafa;  
+    text-align: left;
+}
+
+.modal-dialog{
+    max-width: 65%;  
+}
+
+.modal-content{
+    background-color: #63564f; 
+    padding: 20px;   
+}
+
+.btn-dark,
+.btn-secondary{
+    background-color: rgb(0, 0, 0);
+    color: rgb(237, 227, 222);
+    border: none;
+    padding: 14px 20px;
+    margin: 0px;
+    text-transform: uppercase;    
+    font-family: 'Abel', sans-serif;
+    border-radius: 0px;    
+}
+
+.btn.btn-dark:hover{
+  color: rgb(237, 227, 222);
+  background-color: rgb(89, 89, 89);
+}
+
+.btn.btn-dark:active:focus{
+  color: rgb(237, 227, 222);
+  background-color: rgb(89, 89, 89);
+}
+
 /*-----------------------------------------Header Image */
 
 
@@ -170,56 +221,6 @@ button:focus {
     background-color: rgba(0, 0, 0, 0.47);
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-    /*---- Modal Styling ----*/
-    
-.modal-header,
-.modal-footer{
-    border: none;
-}
-
-.modal-title{
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    text-align: center;
-    font-family: 'Fjalla One', sans-serif;
-    color: #dbc7bd;  
-}
-
-.modal-body{
-    color: #ffffff;    
-}
-
-.modal-dialog{
-    max-width: 65%;  
-}
-
-.modal-content{
-    background-color: #63564f; 
-    padding: 20px;   
-}
-
-.btn-dark,
-.btn-secondary{
-    background-color: rgb(0, 0, 0);
-    color: rgb(237, 227, 222);
-    border: none;
-    padding: 14px 20px;
-    margin: 0px;
-    text-transform: uppercase;    
-    font-family: 'Abel', sans-serif;
-    border-radius: 0px;    
-}
-
-.btn.btn-dark:hover{
-  color: rgb(237, 227, 222);
-  background-color: rgb(89, 89, 89);
-}
-
-.btn.btn-dark:active:focus{
-  color: rgb(237, 227, 222);
-  background-color: rgb(89, 89, 89);
 }
 
 
@@ -316,7 +317,9 @@ iframe{
 }
 
 .tour-content{
-    color: black;
+    color: grey;
+    font-size: larger;
+    font-weight: bold;
 }
 
 /*-----------------------------------------Footer*/
