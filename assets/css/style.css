@@ -16,7 +16,7 @@ body {
 /*-----------------------------------------Content Containers */
 
 .container-wrapper--fionaappleabout {
-    background: url('../images/container-background/fionaappleabout.png') no-repeat center center;
+    background: url('../images/container-background/fionaappleabout.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -27,7 +27,7 @@ body {
 }
 
 .container-wrapper--fionaapplemusic {
-    background: url('../images/container-background/fionaapplemusic.png') no-repeat center center;
+    background: url('../images/container-background/fionaapplemusic.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -39,7 +39,7 @@ body {
 }
 
 .container-wrapper--fionaapplevideo {
-    background: url('../images/container-background/fionaapplevideos.png') no-repeat center center;
+    background: url('../images/container-background/fionaapplevideos.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -50,7 +50,7 @@ body {
 }
 
 .container-wrapper--fionaapplephotos {
-    background: url('../images/container-background/fionaapplephotos.png') no-repeat center center;
+    background: url('../images/container-background/fionaapplephotos.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -61,7 +61,7 @@ body {
 }
 
 .container-wrapper--fionaappletourdates {
-    background: url('../images/container-background/fionaappletourdates.png') no-repeat center center;
+    background: url('../images/container-background/fionaappletourdates.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -143,7 +143,7 @@ body {
 
 
 .header-image {
-    background: url('../images/header/fionaappleheadercolor.png') no-repeat center center;
+    background: url('../images/header/fionaappleheadercolor.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
