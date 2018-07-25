@@ -13,6 +13,20 @@ body {
 }
 
 
+/*-----------------------------------------Header Image */
+
+
+.header-img {
+    background: url('../images/header/fionaappleheadercolor.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 56.5%; /* = ( 600 / 1600 ) x 100 */
+
+}
+
+
 /*-----------------------------------------Content Containers */
 
 .container-wrapper--fionaappleabout {
@@ -21,9 +35,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    position: relative;
-    color: #f0f6f9;
 }
 
 .container-wrapper--fionaapplemusic {
@@ -32,9 +43,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    position: relative;
-    color: #f0f6f9;
 }
 
 .container-wrapper--fionaapplevideo {
@@ -43,9 +51,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    position: relative;
-    color: #f0f6f9;
 }
 
 .container-wrapper--fionaapplephotos {
@@ -54,9 +59,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    position: relative;
-    color: #f0f6f9;
 }
 
 .container-wrapper--fionaappletourdates {
@@ -65,9 +67,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    position: relative;
-    color: #f0f6f9;
 }
 
 .about-content-container, 
@@ -129,30 +128,38 @@ body {
 }
 
 .btn.btn-dark:hover{
-  color: rgb(237, 227, 222);
-  background-color: rgb(89, 89, 89);
+    color: rgb(237, 227, 222);
+    background-color: rgb(89, 89, 89);
 }
 
 .btn.btn-dark:active:focus{
-  color: rgb(237, 227, 222);
-  background-color: rgb(89, 89, 89);
+    color: rgb(237, 227, 222);
+    background-color: rgb(89, 89, 89);
 }
 
-/*-----------------------------------------Header Image */
 
 
-.header-image {
-    background: url('../images/header/fionaappleheadercolor.png') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
+/*----------------------------------------Button Links */
+
+.link-btn{
+    color: #dbc7bd;
+    font-size: large;
+    font-weight: bold;
+}
+
+.link-btn:hover{
+    color: #dbc7bd;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.link-btn:focus{
+    color: #dbc7bd;
+    outline: 0;
 }
 
 
 /*-----------------------------------------Navbar */
-
 
 
 .navbar-bg{
@@ -185,11 +192,11 @@ body {
 }
 
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(219, 199, 189, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(219, 199, 189, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .custom-toggler.navbar-toggler {
-  border-color: rgba(219, 199, 189, 1);
+    border-color: rgba(219, 199, 189, 1);
 } 
 
 .custom-toggler.navbar-toggler:hover {
@@ -202,6 +209,21 @@ body {
 
 button:focus { 
     outline:0 !important; 
+}
+
+.nav-link{
+    color: #dbc7bd;
+    font-size: large;
+}
+
+.nav-link:hover{
+    color: #dbc7bd;
+    opacity: 0.6;
+}
+
+.nav-link:focus{
+    color: #dbc7bd;
+    outline: 0;
 }
 
 
@@ -219,16 +241,16 @@ button:focus {
 }
 
 .bio-content{
-text-align: left;   
-font-weight: bold;
-font-size: large;
-padding: 20px;
+    text-align: left;   
+    font-weight: bold;
+    font-size: large;
+    padding: 20px;
+    color: #f0f6f9;
 }
 
 
 
 /*-----------------------------------------Music*/
-
 
 .music-heading{
     text-transform: uppercase;
@@ -245,13 +267,14 @@ padding: 20px;
     padding-top:5%;
     width: 100%;
     margin: auto;
+    border: none;
+    
 }
 
 .album-img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 10px;
 }
-
 
 .responsive-image {
     max-width: 100%; 
@@ -274,21 +297,22 @@ padding: 20px;
 }
 
 .btn.btn-dark a:hover{
-  color: rgb(237, 227, 222);
-  background-color: rgb(89, 89, 89);
+    color: rgb(237, 227, 222);
+    background-color: rgb(89, 89, 89);
 }
 
 .btn.btn-dark a:active:focus{
-  color: rgb(237, 227, 222);
-  background-color: rgb(89, 89, 89);
+    color: rgb(237, 227, 222);
+    background-color: rgb(89, 89, 89);
 }
 
 .buy-btn {
-     width: 100%;
-     max-width: 190px;
-     margin: 5px;
-     box-sizing: border-box;
+    width: 100%;
+    max-width: 190px;
+    margin: 5px;
+    box-sizing: border-box;
 }
+
 
 /*-----------------------------------------Video */
 
@@ -303,16 +327,15 @@ padding: 20px;
 }
 
 .video-container {
-  height: 0;
-  overflow: hidden;
-  border: none;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 0;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .video-container-ratio {
-  padding-bottom: 45%;
+    padding-bottom: 45%;
 }
-
 
 .video-container iframe {
 	position: absolute;
@@ -363,7 +386,7 @@ footer{
     background-color: #615650;
     margin: 0;
     position: absolute;    
-    padding: 55px;
+    padding: 65px;
     font-family: 'Abel', sans-serif;
     text-align: center;
     text-transform: uppercase;
@@ -408,24 +431,6 @@ input[type=submit] {
     text-transform: uppercase;    
     font-family: 'Abel', sans-serif;
     border-radius:0px;
-}
-
-
-    /*---- Privacy T&C's ----*/
-    
-.nav-link{
-    color: #dbc7bd;
-    font-size: large;
-}
-
-.nav-link:hover{
-    color: #dbc7bd;
-    opacity: 0.6;
-}
-
-.nav-link:focus{
-    color: #dbc7bd;
-    outline: 0;
 }
 
     /*---- Social Links ----*/
