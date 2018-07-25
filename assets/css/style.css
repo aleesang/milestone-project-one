@@ -13,6 +13,7 @@ body {
 }
 
 
+
 /*-----------------------------------------Content Containers */
 
 .container-wrapper--fionaappleabout {
@@ -35,7 +36,6 @@ body {
     display: flex;
     position: relative;
     color: #f0f6f9;
-    width: 100%;
 }
 
 .container-wrapper--fionaapplevideo {
@@ -163,6 +163,7 @@ body {
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 0.1em;
     font-size: larger;
+    height: 75px;
 }
 
 .navbar-brand:hover{
@@ -252,6 +253,7 @@ font-size: large;
 
 .album-img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
 }
 
 
@@ -283,6 +285,13 @@ font-size: large;
 .btn.btn-dark a:active:focus{
   color: rgb(237, 227, 222);
   background-color: rgb(89, 89, 89);
+}
+
+.buy-btn {
+     width: 100%;
+     max-width: 190px;
+     margin: 5px;
+     box-sizing: border-box;
 }
 
 /*-----------------------------------------Video */
