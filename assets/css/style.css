@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One:100,200,300,400,500,600,700|Abel:100,200,300,400,500,600,700');
 
-/*-----------------------------------------body */
+/*-----------------------------------------Body */
 
 body {
     font-family: 'Abel', sans-serif;
-    color: #000000;
-    text-align: center;
     margin-top: 90px;
+    text-align: center;
 }
 
 .uppercase{
@@ -23,7 +22,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-bottom: 56.5%; /* = ( 600 / 1600 ) x 100 */
+    padding-bottom: 56.5%; /* = ( 600 / 1600 ) x 100 used to resize image when viewing on smaller devices (code from: https://stackoverflow.com/questions/43214466/resizing-background-image-with-bootstrap)*/
 
 }
 
@@ -70,11 +69,21 @@ body {
     background-size: cover;
 }
 
+.container-wrapper--fionaappleinsta {
+    background: url('../images/container-background/fionaappleinsta.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 .about-content-container, 
 .music-content-container,
 .video-content-container,
 .photo-content-container,
-.tour-content-container {
+.tour-content-container,
+.follow-content-container{
     padding: 95px 40px 95px 40px;
 }
 
@@ -82,7 +91,7 @@ body {
    
  @media (max-width: 800px) {
      .grid-container > div {
-         margin-bottom: 20px;
+         margin-bottom: 30px;
      }
   }
    
@@ -104,7 +113,7 @@ body {
 
 .modal-body{
     color: #fafafa;  
-    text-align: left;
+    text-align: center;
 }
 
 .modal-dialog{
@@ -113,7 +122,7 @@ body {
 
 .modal-content{
     background-color: #615650; 
-    padding: 20px;   
+    padding: 20px; 
 }
 
 .btn-dark,
@@ -125,22 +134,19 @@ body {
     margin: 0px;
     text-transform: uppercase;    
     font-family: 'Abel', sans-serif;
-    border-radius: 0px;    
+    border-radius: 0px;
 }
 
-.btn.btn-dark:hover{
+.btn-dark:hover{
     color: rgb(237, 227, 222);
     background-color: rgb(89, 89, 89);
 }
 
-.btn.btn-dark:active:focus{
+.btn-dark:active:focus{
     color: rgb(237, 227, 222);
     background-color: rgb(89, 89, 89);
 }
 
-
-
-/*----------------------------------------Button Links */
 
 .link-btn{
     color: #dbc7bd;
@@ -285,33 +291,13 @@ button:focus {
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
-.btn-dark a{
-    background-color: rgb(0, 0, 0);
-    color: rgb(237, 227, 222);
-    border: none;
-    text-decoration: none;
-    padding: 14px 20px;
-    margin: 0px;
-    text-transform: uppercase;    
-    font-family: 'Abel', sans-serif;
-    border-radius: 0px;    
-}
-
-.btn.btn-dark a:hover{
-    color: rgb(237, 227, 222);
-    background-color: rgb(89, 89, 89);
-}
-
-.btn.btn-dark a:active:focus{
-    color: rgb(237, 227, 222);
-    background-color: rgb(89, 89, 89);
-}
 
 .buy-btn {
     width: 100%;
     max-width: 190px;
     margin: 5px;
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 
@@ -350,8 +336,7 @@ iframe{
     border-width: 0px;
 }
 
-
-/*-----------------------------------------Photo Gallery*/
+/*-----------------------------------------Photos*/
 
 .photo-heading{
     text-transform: uppercase;
@@ -379,6 +364,19 @@ iframe{
     color: grey;
     font-size: larger;
     font-weight: bold;
+}
+
+
+/*-----------------------------------------Follow*/
+
+.follow-heading{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: #dbc7bd;
+    margin: auto;
+    padding-bottom: 50px;
 }
 
 /*-----------------------------------------Footer*/
