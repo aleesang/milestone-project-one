@@ -17,7 +17,7 @@ body {
 
 
 .header-img {
-    background: url('../images/header/fionaappleheadercolor.png') no-repeat center center;
+    background: url('../images/header/fionaappleheadercolor.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -420,17 +420,6 @@ input[type=text] {
     max-width: 40em;
 }
 
-input[type=submit] {
-    background-color: #000000; 
-    color: #ede3de;
-    padding: 14px 20px;
-    margin: 0px;
-    border: none;
-    cursor: pointer;
-    text-transform: uppercase;    
-    font-family: 'Abel', sans-serif;
-    border-radius:0px;
-}
 
     /*---- Social Links ----*/
     
