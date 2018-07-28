@@ -300,6 +300,15 @@ button:focus {
     font-weight: bold;
 }
 
+.img-hover:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
 
 /*-----------------------------------------Video */
 
