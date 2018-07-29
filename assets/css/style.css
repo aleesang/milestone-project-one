@@ -14,7 +14,6 @@ body {
 }
 
 
-
 /*-----------------------------------------Header Image */
 
 
@@ -100,30 +99,15 @@ body {
 
 /*----------------------------------------- Modal Styling */
     
-.modal-header,
-.modal-footer{
-    border: none;
-}
-
-.modal-title{
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    text-align: center;
-    font-family: 'Fjalla One', sans-serif;
-    color: #dbc7bd;  
-}
-
 .modal-body{
     color: #615650;  
     text-align: center;
 }
 
-
 .modal-content{
     background-color: #dbc7bd; 
     padding: 20px; 
 }
-
 
 .btn-dark{
     background-color: rgb(0, 0, 0);
@@ -205,9 +189,7 @@ textarea{
 }
 
 
-
 /*-----------------------------------------Navbar */
-
 
 .navbar-bg{
     background-color: #615650;
@@ -417,8 +399,6 @@ iframe{
 }
 
 
-
-
 /*-----------------------------------------Follow*/
 
 .follow-heading{
@@ -430,6 +410,7 @@ iframe{
     margin: auto;
     padding-bottom: 50px;
 }
+
 
 /*-----------------------------------------Footer*/
 
@@ -453,9 +434,6 @@ footer{
     color: #dbc7bd;
     margin: auto;
 }
-
-
-
 
     /*---- Social Links ----*/
     

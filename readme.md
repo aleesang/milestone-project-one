@@ -19,7 +19,7 @@ Build a static (front-end only) website for a 1960's rock band called The Monkee
 Based on the brief, the aim of the website (in both functionality and design) was produce a functional website that essentially showcasws Fiona Apppe's music to 
 current and new fans. 
 
-<h4> The initial stages </h4>:
+<h4> The initial stages </h4>
 - researched Fiona Apple's social media, fan sites, and news articles to help me build a picture of the audience I was targeting, as well as help me create a "story" of what
   purpose her website would serve.
 - mapped out what pages were needed.
@@ -71,6 +71,13 @@ also decided to show a snippet of her pics that link to that pic on instagram, t
 - Icons used were fron Font Awesome. 
 - Fonts were Google Fonts.
 
+<h4>Plugins</h4>
+https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css
+https://code.jquery.com/jquery-3.3.1.slim.min.js
+https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js
+https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js
+
 <h4>Resources</h4>
 - https://getbootstrap.com/
 - https://www.w3schools.com/
@@ -79,7 +86,7 @@ also decided to show a snippet of her pics that link to that pic on instagram, t
 - https://codepen.io/ (ideas on how to make my video responsive)
 - slackbot Forums 
 
-<h4>Code/Framework Used</h4>
+<h4>Code/Framework Used Per Section</h4>
 
 <u>Navigation</u>
 - Bootstrap Navbar
@@ -89,6 +96,7 @@ also decided to show a snippet of her pics that link to that pic on instagram, t
 
 <u>Music</u>
 - Bootstrap Grid system
+- Bootstrap Dropdown menu buttons
 
 <u>Videos</u>
 - Bootstrap Grid system
@@ -98,6 +106,8 @@ also decided to show a snippet of her pics that link to that pic on instagram, t
 
 <u>Tour</u>
 - Bootstrap Grid system
+- Bootstrap Modal Popup
+- Bootstrap Form
 
 <u>Follow</u>
 - Bootstrap Grid system
@@ -118,18 +128,19 @@ also decided to show a snippet of her pics that link to that pic on instagram, t
 - AND also tested it physically viewing it on mobile, tablet, mac and windows laptop, windows desktop, and different browsers (firefox, safari, google chrome, opera)
 
 <h4>What was tested</h4>
-- External links (to her social media, to buy her album, track events, spotify and youtube)
+- External links (to her social media, to buy her album, spotify and youtube)
 - Internal links (the navbar to ensure anchors were referenced to the right sections, and the link to right the modal popups)
-- Input form for signup of newsletter (if the required field was triggered when i clicked submit without an email address)
+- Forms for signup of newsletter and enquiry for event booking (if the required field was triggered when i clicked submit without an email address)
 - Margins for the containers (page sections) as fixed navbar alters the margins slightly that when you click on the link to take you to an anchor point,
   the navbar covers the heading. Changed margins in css to accommodate correct anchor point.
 - Checked button sizes so they were responsive and large enough to be clicked
 - Checked images to ensure they were responsive and displayed appropriately on smaller screens
+- Checked modal-dialog size in smaller screen to ensure it displayed properly.
 - Ensuring header was resized when viewing on smaller screens (aka mobile) and amending padding-bottom to account for navbar covering half the image when viewing on a smaller screen.
 - Ensuring content had no grammatical errors.
 - Checked margins and padding of container (sections) to ensure the content within it didn't look disproportionate on smaller screens.
 - Ensured the iframes were being responsive and displayed properly.
-- HTML and CSS validation via w3.org
+- HTML and CSS validation via w3.org. 
 
 
 
