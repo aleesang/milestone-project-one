@@ -74,6 +74,7 @@ also decided to show a snippet of her pics that link to that pic on instagram, t
 <h4>Resources</h4>
 - https://getbootstrap.com/
 - https://www.w3schools.com/
+- https://stackoverflow.com/
 - https://bootsnipp.com/ (for ideas on how the Photo gallery and Instagram layout could be coded)
 - https://codepen.io/ (ideas on how to make my video responsive)
 - slackbot Forums 
