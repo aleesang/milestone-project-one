@@ -4,8 +4,9 @@
 
 body {
     font-family: 'Abel', sans-serif;
-    margin-top: 90px;
     text-align: center;
+    margin-top: 90px; /*-------Bring header image down so fixed nav doesn't cover half pic when window is resized-----*/
+
 }
 
 .uppercase{
@@ -87,7 +88,7 @@ body {
     padding: 95px 40px 95px 40px;
 }
 
-   /*----space between vertical stacking----*/
+   /*----space between vertical stacking --solution from https://stackoverflow.com/questions/35662726/how-do-i-add-space-in-between-a-vertical-stacking-column-for-mobile-in-bootstrap ----*/
    
  @media (max-width: 800px) {
      .grid-container > div {
@@ -112,16 +113,17 @@ body {
 }
 
 .modal-body{
-    color: #fafafa;  
+    color: #615650;  
     text-align: center;
 }
 
 .modal-dialog{
-    max-width: 65%;  
+    max-width: 50%;
 }
 
+
 .modal-content{
-    background-color: #615650; 
+    background-color: #dbc7bd; 
     padding: 20px; 
 }
 
@@ -147,7 +149,8 @@ body {
     background-color: rgb(89, 89, 89);
 }
 
-
+   /*-----Continue and Privacy Policy Links*/
+   
 .link-btn{
     color: #dbc7bd;
     font-size: large;
@@ -163,6 +166,18 @@ body {
 .link-btn:focus{
     color: #dbc7bd;
     outline: 0;
+}
+
+
+/*-----------------------------------------All Images */
+
+.img-hover:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 
@@ -270,44 +285,36 @@ button:focus {
 }
 
 .music-player{
-    padding-bottom:5%; 
+    padding-bottom:4%; 
     padding-top:5%;
     width: 100%;
     margin: auto;
     border: none;
-    
 }
-
-.album-img{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-top: 10px;
-}
-
-.responsive-image {
-    max-width: 100%; 
-    display:block; 
-    height: auto;
-    opacity: 1.0;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-}
-
 
 .buy-btn {
     width: 100%;
     max-width: 190px;
-    margin: 5px;
     box-sizing: border-box;
     font-weight: bold;
 }
 
-.img-hover:hover{
-    cursor: pointer;
-    opacity: 0.6;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+.dropdown-menu{
+    background-color: black;
 }
+
+.dropdown-item{
+    background-color: black;
+    color: #dbc7bd;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.dropdown-item:hover{
+    color: rgb(237, 227, 222);
+    background-color: rgb(89, 89, 89);    
+}
+
 
 
 /*-----------------------------------------Video */
