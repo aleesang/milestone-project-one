@@ -114,7 +114,7 @@ body {
     color: rgb(237, 227, 222);
     border: none;
     padding: 14px 20px;
-    margin: 0px;
+    margin: auto;
     text-transform: uppercase;    
     font-family: 'Abel', sans-serif;
     border-radius: 0px;
@@ -169,15 +169,14 @@ body {
     text-transform: uppercase;
 }
 
-input[type=text] {
+input[type=email] {
     margin: 0px;
-    height: 50px; 
     border-style: solid;
     border-width: 1px;  
     border-color: #ede3de; 
     border-radius:0px;
-    max-width: 100%;
 }
+
 
 textarea{
     margin: 0px;
@@ -186,6 +185,15 @@ textarea{
     border-width: 1px;  
     border-color: #ede3de; 
     border-radius:0px;
+}
+
+   /*----submit button max-width on smaller screen----*/
+
+@media screen and (max-width: 600px) {
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
 }
 
 

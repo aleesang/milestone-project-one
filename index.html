@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fiona Apple | Official Site</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -25,7 +25,6 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   
-  <!-- Nav Bar --> 
   <div class="collapse navbar-collapse flex-row-reverse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
@@ -50,7 +49,9 @@
         <a class="nav-link" href="#signup">Sign Up</a>
       </li> 
     </ul>
-  </div>  
+  </div> 
+  
+  
 </nav>
 
 <!-- Header Image -->
@@ -373,7 +374,7 @@
                         <button type="button" class="close" data-dismiss="modal">&times;</button>                        
                       <div class="modal-body">
                              <div class="justify-content-center">
-                                    <form class="booking-form" action="https://project-1-artist-website-aleesang.c9users.io/booking.html" method="get">
+                                    <form class="booking-form" action="/booking.html" method="get">
                                     <div class="form-group">
                                       <input type="text" class="form-control" id="name" placeholder="Name" required>
                                     </div>
@@ -459,22 +460,25 @@
 
 <!-- Footer -->
 <footer class="container-fluid" id="signup">
-        <div class="row">
-            <div class="mail-content-container">
+    <div class="mail-content-container">
+        <div class="row justify-content-center mb-4">
                     <!-- Heading -->
-              <h2 class="mb-5"><i class="fa fa-envelope" aria-hidden="true"></i> Stay Updated with the latest news</h2>
-            
-            
+              <h2><i class="fa fa-envelope" aria-hidden="true"></i> Stay Updated with the latest news</h2>
+         </div> 
+
+        <div class="row justify-content-center mb-4 col-sm">
                     <!-- Newsletter Signup -->
-            <form class="form-inline justify-content-center" action="https://project-1-artist-website-aleesang.c9users.io/confirmation.html" method="get">
-                <div class="form-group">
-                    <input class="form-control mb-2 mr-sm-2" type="text" placeholder="Email" size="65" required> 
-                    <input class="btn btn-dark form-control mb-2 mr-sm-2" type="submit" value="Submit">
-                </div>                        
-                </form>
-            </div> 
-        </div>
-                    
+            <form class="form-inline" action="/confirmation.html" method="get">
+                <div class="form-group mx-sm-3">
+                    <label for="inputemail" class="sr-only">Email</label>
+                    <input type="email" class="form-control form-control-lg" id="signupemail" placeholder="Email" size="55" required>
+                </div>
+                
+                    <input type="submit" value="Submit" class="btn btn-dark">
+            </form>
+        </div> 
+    </div>
+              
                     <!-- Privacy -->
         <div class="row col-sm justify-content-center">
                 <ul class="d-flex list-inline footer-links">
@@ -619,13 +623,9 @@
   
 
 <!-- Scripts -->
-    <!-- Navbar collapsible hide on click - code from: https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click -->
-    <script>$('.navbar-nav li a').on('click', function(){
-        if(!$( this ).hasClass('dropdown-toggle')){
-            $('.navbar-collapse').collapse('hide');
-        }
-    });</script>
-
+<script type="text/javascript">$('.nav-link').on('click',function() {
+  $('.navbar-collapse').collapse('hide');
+});</script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
