@@ -401,9 +401,14 @@ iframe{
 }
 
 .tour-content{
-    color: grey;
+    color: white;
     font-size: larger;
     font-weight: bold;
+}
+
+.calendar-icon{
+    color: #dbc7bd;
+    font-weight: bolder;
 }
 
 
