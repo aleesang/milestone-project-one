@@ -2,62 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fiona Apple | Official Site</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <header>
 <!-- Navigation -->
-<nav class="navbar navbar-expand-md navbar-bg fixed-top">
-    
-    <!-- Home Link Fiona Apple--> 
-  <a class="navbar-brand" href="#">
-  	<img class="responsive-image ml-3" alt="Logo" src="assets/images/logo/fionaapplelogo.png" style="height: 66px;">
-  </a>
-  
-  <!-- Collapsable Button --> 
-  <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  
-  <div class="collapse navbar-collapse flex-row-reverse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#music">Music</a>
-      </li>    
-      <li class="nav-item">
-        <a class="nav-link" href="#videos">Videos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#photos">Photos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#tour">Tour</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#follow">Follow</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#signup">Sign Up</a>
-      </li> 
-    </ul>
-  </div> 
-  
-  
-</nav>
+        <!-- Bootstrap 4 Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-bg fixed-top">
+        <a class="navbar-brand" href="#">
+            <img class="responsive-image ml-3" alt="Logo" src="assets/images/logo/fionaapplelogo.png" style="height: 66px;">
+        </a>    
+          <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+        <!-- Code for toggling the navbar menu on mobile view: https://stackoverflow.com/questions/16680543/hide-twitter-bootstrap-nav-collapse-on-click?noredirect=1&lq=1 -->
+        
+          <div class="collapse navbar-collapse flex-row-reverse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+              <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a class="nav-link" href="#music">Music</a>
+              </li>    
+              <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a class="nav-link" href="#videos">Videos</a>
+              </li>
+              <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a class="nav-link" href="#photos">Photos</a>
+              </li>
+              <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a class="nav-link" href="#tour">Tour</a>
+              </li>
+              <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a class="nav-link" href="#follow">Follow</a>
+              </li>
+              <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a class="nav-link" href="#signup">Sign Up</a>
+              </li> 
+            </ul>
+        </div>
+        </nav>
 
+<header>
 <!-- Header Image -->
 <div class="header-img">
 </div>
-
 </header> 
 
 <!-- About -->
@@ -142,6 +137,7 @@
   <h2><i class="fa fa-headphones" aria-hidden="true"></i> Music</h2>
             </div>
     <!-- Start Bootstrap Grid -->
+    <div class="container"> 
         <!-- Row 1 -->
         <div class="row grid-container">
             <!-- Column 1 -->
@@ -149,7 +145,7 @@
                  <!--Album Image-->
                 <img src="assets/images/albums/fionaappletidal.jpg" alt="Fiona Apple Album: Tidal" class="img-fluid" data-toggle="modal" data-target="#tidal">
                  <!-- Spotify -->
-                <iframe class="music-player" src="https://open.spotify.com/embed/album/5gVBXH8MT6zfdRkjp7qT18" width="500" height="120"></iframe>
+                <iframe class="music-player" src="https://open.spotify.com/embed/album/5gVBXH8MT6zfdRkjp7qT18" width="500" height="125"></iframe>
                 <!-- Buy Links -->
                 <div class="dropdown">
                     <button class="buy-btn btn btn-dark btn-lg dropdown-toggle" data-toggle="dropdown">
@@ -167,7 +163,7 @@
                 <!--Album Image-->
                 <img src="assets/images/albums/fionaapplewhenthepawn.jpg" alt="Fiona Apple Album: When the pawn..." class="img-fluid"/>
                     <!-- Spotify -->
-                    <iframe class="music-player" src="https://open.spotify.com/embed/album/3o5EnVZNJXtfPV8tCoagjI" width="500" height="120"></iframe>
+                    <iframe class="music-player" src="https://open.spotify.com/embed/album/3o5EnVZNJXtfPV8tCoagjI" width="500" height="125"></iframe>
                     <!-- Buy Links -->
                 <div class="dropdown">
                     <button class="buy-btn btn btn-dark btn-lg dropdown-toggle" data-toggle="dropdown">
@@ -179,13 +175,16 @@
                 </div>
                 </div>
             </div>
-            
-         <!-- Column 3 -->    
-            <div class="col-sm">
+        </div>
+        
+        <!-- Row 2 -->
+          <div class="row grid-container">  
+         <!-- Column 1 -->    
+            <div class="col-sm mt-4">
                 <!--Album Image-->
                 <img src="assets/images/albums/fionaappleextraordinarymachine.jpg" alt="Fiona Apple Album: Extraordinary Machine" class="img-fluid"/>
                     <!-- Spotify -->
-                    <iframe class="music-player" src="https://open.spotify.com/embed/album/1z0O8lKuQRs974S8wcRiAs" width="500" height="120"></iframe>
+                    <iframe class="music-player" src="https://open.spotify.com/embed/album/1z0O8lKuQRs974S8wcRiAs" width="500" height="125"></iframe>
                     <!-- Buy Links -->
                 <div class="dropdown">
                     <button class="buy-btn btn btn-dark btn-lg dropdown-toggle" data-toggle="dropdown">
@@ -198,12 +197,12 @@
                 </div>
             </div>
                 
-             <!-- Column 4 -->    
-            <div class="col-sm">
+             <!-- Column 2 -->    
+            <div class="col-sm mt-4">
                 <!--Album Image-->
                 <img src="assets/images/albums/fionaappletheidlerwheel.jpg" alt="Fiona Apple Album: The Idler Wheel.." class="img-fluid"/>
                     <!-- Spotify -->
-                    <iframe class="music-player" src="https://open.spotify.com/embed/album/7uccppFArLf9dNOwDftOZa" width="500" height="120"></iframe>
+                    <iframe class="music-player" src="https://open.spotify.com/embed/album/7uccppFArLf9dNOwDftOZa" width="500" height="125"></iframe>
                 <div class="dropdown">
                     <button class="buy-btn btn btn-dark btn-lg dropdown-toggle" data-toggle="dropdown">
                         Buy Now
@@ -214,7 +213,8 @@
                 </div>
                 </div>                
             </div>
-        </div>
+            </div>
+            </div>   
     <!-- End Bootstrap Grid -->        
         </div>
 </section>   
@@ -374,7 +374,7 @@
                         <button type="button" class="close" data-dismiss="modal">&times;</button>                        
                       <div class="modal-body">
                              <div class="justify-content-center">
-                                    <form class="booking-form" action="/booking.html" method="get">
+                                    <form class="booking-form" onsubmit="myFunction()">
                                     <div class="form-group">
                                       <input type="text" class="form-control" id="name" placeholder="Name" required>
                                     </div>
@@ -468,9 +468,8 @@
 
         <div class="row justify-content-center mb-4 col-sm">
                     <!-- Newsletter Signup -->
-            <form class="form-inline" action="/confirmation.html" method="get">
+            <form class="form-inline" onsubmit="myFunction()">
                 <div class="form-group mx-sm-3">
-                    <label for="inputemail" class="sr-only">Email</label>
                     <input type="email" class="form-control form-control-lg" id="signupemail" placeholder="Email" size="55" required>
                 </div>
                 
@@ -624,6 +623,16 @@
 
 <!-- Scripts -->
 
+<!--Code for when clicking submit for form found on: https://www.w3schools.com/js/js_popup.asp -->
+<script>
+function myFunction() {
+    var txt;
+    if (confirm("Thank you for your submission!")) {
+    } 
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
+    
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

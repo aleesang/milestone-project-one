@@ -92,7 +92,7 @@ body {
    
  @media (max-width: 800px) {
      .grid-container > div {
-         margin-bottom: 30px;
+         margin-bottom: 15px;
      }
   }
    
@@ -187,7 +187,7 @@ textarea{
     border-radius:0px;
 }
 
-   /*----submit button max-width on smaller screen----*/
+   /*----submit button max-width on smaller screen :: used https://www.w3schools.com/css/css_rwd_mediaqueries.asp to help me draft the code----*/
 
 @media screen and (max-width: 600px) {
     input[type=submit] {
@@ -227,6 +227,8 @@ textarea{
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;     
 }
+
+/*--change of colour of collapsable menu code was from user "eventyret" from slackforums who helped me with this query --*/
 
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(219, 199, 189, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
