@@ -155,16 +155,19 @@ https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js
 <h4>Issues Encountered</h4>
 
 - Once I deployed my version on GitHub Pages, I did run into one major issue. The javascript plugin I installed to allow collapsable menu to hide on click in smaller screens, ended up not working.
-  I went back to my local version, and realised it had stopped working there too. I figured it had something to do with my latest version of jquery and javascript installed, and the plugin just didn't end up being compatible (even though it was working prior to deployment.
-  So I tried to see if I could find alternative solutoions to amend this issue. After much searching, I was able to find a solution that did not involve jquery which solved my issue (https://stackoverflow.com/questions/16680543/hide-twitter-bootstrap-nav-collapse-on-click?noredirect=1&lq=1 the code that
+  I went back to my local version, and realised it had stopped working there too. I figured it had something to do with my latest version of jquery and javascript installed, and the plugin just didn't end up being compatible (even though it was working prior to deployment).
+  So I searched for alternative solutions to amend this issue. After much searching, I was able to find a solution that did not involve jquery which solved my issue (https://stackoverflow.com/questions/16680543/hide-twitter-bootstrap-nav-collapse-on-click?noredirect=1&lq=1 the code that
   worked is all the way at the bottom)
 - I also noticed in the deployed version that there were some slight alignment issues in the footer, particularly with the newsletter signup form and the placement of the social links, privacy policy and copyright - they appeared slightly off center, to the heading.
   To amend this, i cleaned up the footer and placed each of these elements into the bootstrap grid format, so they could be aligned evenly in the center.
 - I tested the links to the booking page and confirmation page (I created these for the purposes of the project), both associated with the submit button of both the booking form (tour section) and newsletter sign up, and realised that there would be an issue as these linked to my local version of the site.
   I decided to look at a javascript alternative and use the "JS Popup" found at w3schools (https://www.w3schools.com/js/js_popup.asp) and tested it. This worked as a better alternative for the purposes of the project.
 
+<h4>Outcome</h4>
 
-
+- After making the changes above, I deployed it again, and the site turned out exactly how I envisioned it, where all links (internal and external) were working
+  well, the modal popup links worked well, the submission forms worked well, the alignment of all rows and margins appeared as even as can be, music and videos
+  worked well, and images didn't take too long to load and were all resized appropriately on smaller screens. Overall, this was deployed successfully.
 
 
 
