@@ -44,7 +44,8 @@ it was decided that the following would be implemented:
   artwork that she has used for her albums, the kinds of music video's she has made, and the photoshoots she has appeared in... all have a similar colour scheme, or at least
   mostly warm-dark toned colours. I wanted keep within this theme for the website.
 
-- Fonts were also important and decided on a clean, minimalist style fonts. The headers and navigation bar has the same font, whereas the body and footer links and button font,
+- Fonts were also important and decided on a clean, minimalist style fonts as I didn't want the user to be bombarded with over-the-top bold and fancy fonts, which would make the page look "busy".
+  The headers and navigation bar has the same font, whereas the body and footer links and button font,
   have the same style applied.
 
 <h4>Navigation</h4>
@@ -70,16 +71,16 @@ also decided to show a snippet of her pics that link to that pic on instagram, t
 <h1>HOW IT WAS BUILT</h1>
 
 - The main framework used to help build the website was Bootstrap V4.1. 
-- Icons used were fron Font Awesome. 
+- Icons used were from Font Awesome. 
 - Fonts were Google Fonts.
 
 <h4>Plugins</h4>
 
-https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css
-https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css
-https://code.jquery.com/jquery-3.3.1.slim.min.js
-https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js
-https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js
+- https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css
+- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css
+- https://code.jquery.com/jquery-3.3.1.slim.min.js
+- https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js
+- https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js
 
 <h4>Resources</h4>
 
@@ -121,7 +122,7 @@ https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js
 - Bootstrap for layout. Modal for Privacy Policy. Font Awesome for Social Media icons.
 
 * Font Awesome was used on all headers.
-* Any code I may have referenced that was not taken from bootstrap or w3schools, I have noted accordingly on the HTML doc and CSS stylesheet.
+* Any code referenced, I have noted accordingly on the HTML doc and CSS stylesheet.
 
 <h1>HOW IT WAS TESTED</h1>
 
